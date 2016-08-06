@@ -1,0 +1,64 @@
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 960px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+}
+
+
+ul, menu, dir{
+    display: block;
+
+}
+
+/*banner标语*/
+#banner {
+    width: 960px;
+    height: 375px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+#banner .navbar{
+    position: absolute;
+    width: 960px;
+    left: 0;
+    bottom: 0;
+    height: 48px;
+    line-height: 48px;
+    /*background-color: blue;*/
+    background: url("../images/navbg.png") repeat-x;
+}
+#banner ul{
+    display: block;
+    width: 960px;
+}
+#banner ul li {
+    float: left;
+
+}
+
+#banner li a{
+
+    display: block;
+    padding: 0 15px;
+    font-family: "microsoft yahei";
+    font-size: 18px;
+    text-decoration: none;
+    color: #4b5b5b;
+}
+
+#banner .navbar ul li a:hover {
+    background-color: #ccc;
+    background-color: rgba(255,255,255,0.3);
+
+}
+
